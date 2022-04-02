@@ -1,5 +1,10 @@
 import unittest
 
+def __init__(self, poker_hand_1, poker_hand_2):
+    poker_hand_1 = PokerHand("carta1 carta2 carta3 carta4 carta5")
+    poker_hand_2 = PokerHand("carta1 carta2 carta3 carta4 carta5")
+    result = poker_hand_1.compare_with(poker_hand_2)
+
 class TestClass(unittest.TestCase):
 
  class PokerHand:
